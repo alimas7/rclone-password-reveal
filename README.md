@@ -13,7 +13,7 @@ A simple Go script to decrypt passwords obfuscated with `rclone obscure`.
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/yourusername/rclone-password-reveal.git
+git clone https://github.com/lvitti/rclone-password-reveal.git
 cd rclone-password-reveal
 ```
 
