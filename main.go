@@ -9,19 +9,19 @@ import (
 
 func main() {
 	if len(os.Args) != 2 {
-		fmt.Println("Uso: go run main.go <password_ofuscada>")
+		fmt.Println("Usage: go run main.go <obscured_password>")
 		os.Exit(1)
 	}
 
-	// Obtiene la contraseña ofuscada desde los argumentos
+	// Get the obscured password from the arguments
 	obscuredPassword := os.Args[1]
 
-	// Descifra la contraseña
+	// Reveal the original password
 	plainPassword, err := obscure.Reveal(obscuredPassword)
 	if err != nil {
-		fmt.Println("Error al descifrar la contraseña:", err)
+		fmt.Println("Error revealing the password:", err)
 		os.Exit(1)
 	}
 
-	fmt.Println("Contraseña original:", plainPassword)
+	fmt.Println("Original password:", plainPassword)
 }
