@@ -1,4 +1,4 @@
-module rclone_password_reveal
+module github.com/lvitti/rclone-password-reveal
 
 go 1.22.3
 
