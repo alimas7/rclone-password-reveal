@@ -1,6 +1,6 @@
 module github.com/lvitti/rclone-password-reveal
 
-go 1.22.3
+go 1.22
 
 require (
 	github.com/jzelinskie/whirlpool v0.0.0-20201016144138-0675e54bb004 // indirect
